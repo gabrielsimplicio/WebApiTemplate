@@ -10,7 +10,7 @@ namespace WebApiTemplate
             config
                 .EnableSwagger(c =>
                 {
-                    c.SingleApiVersion("v1", "GovHackMT.Ouvidoria.Api");
+                    c.SingleApiVersion("v1", "WebApiTemplate");
                 })
                 .EnableSwaggerUi();
         }
